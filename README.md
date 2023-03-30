@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+React Assignments
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Topics
+Introduction to React
+JSX In React
 
-## Available Scripts
+Questions
+Using create-react-app, set up a react app named ‘website’. 
+Inside the src folder, create a file called ‘Header.js’. Inside this file, create a function that returns the JSX version of the HTML code below 
+<header>
+     <h1>Welcome to my website!</h1>
+     <nav>
+       <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#">Services</a></li>
+         <li><a href="#">Contact</a></li>
+       </ul>
+     </nav>
+   </header>
 
-In the project directory, you can run:
 
-### `npm start`
+Inside the src folder, create a file called Main.js’. Inside this file, create a function that returns the JSX version of the HTML code below:
+<main>
+     <section>
+       <h2>About Us</h2>
+       <p>
+         We are a small team of web developers based in the United States. We
+         specialise in creating modern and responsive websites for businesses
+         and individuals.
+       </p>
+     </section>
+     <section>
+       <h2>Our Services</h2>
+       <ul>
+         <li>Web Design</li>
+         <li>Web Development</li>
+         <li>E-commerce Solutions</li>
+         <li>Search Engine Optimization (SEO)</li>
+       </ul>
+     </section>
+   </main>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Go to the App.js file and delete all the current JSX in the return statement. Now instantiate the Header and the Main components inside the return statement.
+Run npm start in your terminal to load your browser, where you will see the result of your implementation.  Congratulations! You have just created your first react app.,
+To demonstrate JavaScript in JSX, create a variable called country inside the Main function in the Main.js file and assign the name of your country to that variable. Look for the United States in the JSX and replace it with the country variable wrapped in curly braces. Confirm in your browser that you can see the result of that change. 
+Push your code to a Github repository and submit the link to that repository in Citrone.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Answer the following questions in the readme.md file inside your project above
+List five significant features of React
+List five major advantages of React
+What is the name of the Software Engineer that created React? Also, which company owns React?
+What are the notable differences between HTML & JSX? Give at least 3 of them
+Why can’t browsers read JSX?
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
